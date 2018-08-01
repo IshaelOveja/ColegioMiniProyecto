@@ -1,0 +1,15 @@
+{
+    "require": {
+        "twbs/bootstrap": "4.1.1",
+        "components/jquery": "^3.3",
+        "mervick/material-design-icons": "^2.2",
+        "onokumus/metismenu": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rest\\": "rest/",
+            "Config\\": "config/",
+            "Common\\":"common/"
+        }
+    }
+}
